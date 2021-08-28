@@ -57,7 +57,7 @@
         interdum orci quis convallis dapibus.
         Vestibulum vitae tincidunt sem, a blandit sem.
         Quisque interdum orci.</p>
-        <a href="#">FIND OUT MORE</a>
+        <a class="yellow-btn" href="#">FIND OUT MORE</a>
       </div>
     </section>
     <nav class="middle-nav">
@@ -67,44 +67,82 @@
         <li><i class="fa fa-envelope"></i><a href="#">CONTACT</a></li>
       </ul>
     </nav>
-    <div class="gallery">
-      
-    </div>
+    <section>
+      <div class="gallery-container">
+        <ul class="gallery">
+          <li>
+            <img src="https://psd.hackeryou.com/assignment1-assets/tasty/asset-2.jpg" alt="A cut lemon and some blueberries">
+          </li>
+          <li>
+            <img src="https://psd.hackeryou.com/assignment1-assets/tasty/asset-3.jpg" alt="fresh looking salad with dressing on the side">
+          </li>
+          <li>
+            <img src="https://psd.hackeryou.com/assignment1-assets/tasty/asset-4.jpg" alt="a pot of yellow soup with a full bowl beside it">
+          </li>
+        </ul>
+      </div>
+    </section>
     <section class="blog" id="blog">
-      <img src="" alt="">
-      <article class="cooking-tips">
-        <h3>COOKING TIPS</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex dolore rerum possimus placeat distinctio
-          quos consequuntur aperiam! Dolore, quod.</p>
-        <button>READ MORE</button>
-      </article>
-      <img src="" alt="">
-      <article>
-        <h3>POPULAR RECIPES</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla cum mollitia, assumenda dolore voluptate
-          aliquid nam totam corrupti qui ex.</p>
-        <button>READ MORE</button>
-      </article>
+      <div class="blog-container">
+        <div class="image-container">
+          <img src="https://psd.hackeryou.com/assignment1-assets/tasty/asset-5.jpg" alt="tablet showing pictures of food">
+        </div>
+        <article class="cooking-tips">
+          <h3>COOKING TIPS</h3>
+          <p>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nulla
+          pulvinar tortor a elementum eleifend.
+          Vestibulum consequat vestibulum.</p>
+          <a class="yellow-btn" href="#">READ MORE</a>
+        </article>
+        <div class="image-container">
+          <img src="https://psd.hackeryou.com/assignment1-assets/tasty/asset-6.jpg" alt="tablet on a countertop showing a recipe">
+        </div>
+        <article class="recipes">
+          <h3>POPULAR RECIPES</h3>
+          <p>Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Nulla
+          pulvinar tortor a elementum eleifend.
+          Vestibulum consequat vestibulum.</p>
+          <a class="yellow-btn" href="#">READ MORE</a>
+        </article>
+      </div>
     </section>
   </main>
   <aside>
-    <div class="author-image-wrapper"><img src="" alt=""></div>
-    <h3>Meet the Cook</h3>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque deserunt atque magni mollitia modi vero aliquid
-      tempora numquam? Culpa voluptatum ab reiciendis velit? Impedit, eligendi saepe quis rerum est itaque officiis
-      facere laudantium cumque expedita accusamus, nesciunt velit odio a modi repellendus. Quam magnam minima ratione
-      itaque ullam harum voluptas!</p>
-    <button>FIND OUT MORE</button>
+    <div class="aside-container">
+      <div class="author-image-container">
+        <img src="https://psd.hackeryou.com/assignment1-assets/tasty/asset-7.jpg" alt="author floats among citrus">
+      </div>
+      <h3>Meet the Cook</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit. Nulla pulvinar tortor nulla
+      elementum eleifend. Vestibulum consequat
+      vestibulum felis pharetra luctus. Quisque
+      interdum orci quis convallis dapibus nulla
+      pulvinar tortor.Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Nulla pulvinar tortor
+      nulla elementum eleifend. Vestibulum
+      consequat vestibulum felis pharetra luctus.
+      Quisque interdum orci quis convallis dapibus
+      nulla pulvinar tortor.Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Nulla pulvinar
+      tortor nulla el. Lorem ipsum dolor sit amet,
+      consectetur adipiscing elit. Nulla pulvinar tortor
+      nulla elementum eleifend. Vestibulum
+      consequat vestibulum felis pharetra luctus.</p>
+      <a class="yellow-btn">FIND OUT MORE</a>
+    </div>
   </aside>
   <footer>
-    <div class="container footer-left">
-      <div class="footer-section">
+    <div class="footer-container">
+      <div class="contact-container">
         <h4>CONTACT</h4>
         <p>info@email.com</br>123-456-7890</br>123 some road,</br>Toronto, ON</p>
       </div>
-      <div class="footer-section">
+      <div class="bottom-nav-container">
         <h4>
-          <nav>
+          <nav class="bottom-nav">
             <ul>
               <li><a href="">HOME</a></li>
               <li><a href="">ABOUT</a></li>
@@ -114,7 +152,7 @@
           </nav>
         </h4>
       </div>
-      <div class="footer-section">
+      <div class="recent-posts-container">
         <h4>RECENT POSTS</h4>
         <ul>
           <li><a href="">Lemon Pound Cake</a></li>
@@ -123,16 +161,17 @@
           <li><a href="">Lemonade</a></li>
         </ul>
       </div>
-    </div>
-    <div class="container footer-right">
-      <form action="">
-        <h4></h4>
-        <label for=""></label>
-        <div class="input-container">
-          <input type="text">
-          <button></button>
-        </div>
-      </form>
+      <div class="form-container">
+        <form action="">
+          <h4>STAY UPDATED</h4>
+          <label for="">Subscribe to our newsletter to stay updated.</label>
+          <div class="input-container">
+            <input type="email" placeholder="email address">
+            <button>SUBSCRIBE</button>
+          </div>
+        </form>
+      </div>
+      <div class="copyright">Copyright &copy; 2018 HackerYou</div>
     </div>
   </footer>
 
